@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -40,29 +41,38 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Wlecome to C308 Web Framework</Text>
-              <Text style={styles.sectionTitle}>Step One</Text>
+
+              <Text style={styles.sectionTitle}>Recommended Eats @ RP</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                <Text style={styles.highlight}>Sweet Tooth Waffles</Text> has waffles with cornflakes and chocolate spread, other than usual fillings such as kaya and peanut butter.
               </Text>
+              <Text style={styles.highlight}>W5 Level 1,E-canteen</Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
+              <Text style={styles.sectionDescription}>
+                <Text style={styles.highlight}>Crowded Bowl</Text> serves DIY vegetarian salad bowls. Pasta, potato salad and olive fried rice are some of the options availaible.
+              </Text>
+              <Text style={styles.highlight}>W4/W6 Lawn Canteen</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
+              <Text style={styles.sectionDescription}>
+                <Text style={styles.highlight}>Western Cuisine @ Koufu</Text> sells one of the most delicious western food at very affordable prices. Their top selling item would be chicken and spagethetti.
+              </Text>
+              <Text style={styles.highlight}>E1 Level 1, Koufu</Text>
               <Text style={styles.sectionDescription}>
                 <DebugInstructions />
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
               <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
+                <Text style={styles.highlight}>Ayam Penyet</Text> has a long queue for its 'smashed chicken'(ayam penyet). The chicken is soaked in homemade sauce and topped with crunchy fried crumbs. Its chilli is not too spicy.
+              </Text>
+              <Text style={styles.highlight}>W4/W6 Lawn Cantten</Text>
+              <Text style={styles.sectionDescription}>
+
               </Text>
             </View>
             <LearnMoreLinks />
