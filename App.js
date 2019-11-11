@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-
+    console.log("Welcome to C308 Leson 04 quiz!")
+    console.log("Your component here")
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -42,12 +43,12 @@ const App: () => React$Node = () => {
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
 
-              <Text style={styles.sectionTitle}>Recommended Eats @ RP</Text>
-              <Text style={styles.sectionDescription}>
-                <Text style={styles.highlight}>Sweet Tooth Waffles</Text> has waffles with cornflakes and chocolate spread, other than usual fillings such as kaya and peanut butter.
-              </Text>
-              <Text style={styles.highlight}>W5 Level 1,E-canteen</Text>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text style={styles.sectionDescription}>Set a time you would like us to arrive at your pickup location</Text>
+
+              <Text style={styles.highlight}>RP Furniture Shop</Text>
             </View>
+          </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionDescription}>
                 <Text style={styles.highlight}>Crowded Bowl</Text> serves DIY vegetarian salad bowls. Pasta, potato salad and olive fried rice are some of the options availaible.
